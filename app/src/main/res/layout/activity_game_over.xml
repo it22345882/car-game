@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@drawable/image3">
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="32sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:textColor="#FFD500"
+         />
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restart Game"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#EC8F72"
+        app:cornerRadius="24dp"
+        app:strokeColor="#151512"
+        app:strokeWidth="2dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp" />
+
+</LinearLayout>

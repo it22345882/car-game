@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/image2">
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42dp"
+        app:chipBackgroundColor="#F3D98E"
+        app:chipStrokeColor="#FFD500"
+        app:chipStrokeWidth="2dp"
+        app:chipIconSize="24dp"
+        app:chipIconTint="#FFD500"
+        app:chipStartPadding="8dp"
+        app:chipEndPadding="8dp"
+        app:chipMinHeight="48dp"
+        app:chipCornerRadius="24dp" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="339dp"
+        android:backgroundTint="#E91E63"
+        app:cornerRadius="24dp"
+        app:strokeColor="#FF0000"
+        app:strokeWidth="2dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp" />
+
+    <Button
+        android:id="@+id/highScoreBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="High Score"
+        android:backgroundTint="#E91E63"
+        app:cornerRadius="24dp"
+        app:strokeColor="#FF0000"
+        app:strokeWidth="2dp"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp" />
+
+</LinearLayout>
